@@ -415,6 +415,14 @@
     [
       "462ebe9c-fcaa-4c45-9d51-a2484be3186e",
       "PWR Supply"
+    ],
+    [
+      "2c721cfb-c552-4509-ae86-4c8bd0be2d45",
+      "AD623 and INA126"
+    ],
+    [
+      "bb283dc1-1993-4617-8bcd-6a423451a748",
+      "Wave Generator"
     ]
   ],
   "text_variables": {}

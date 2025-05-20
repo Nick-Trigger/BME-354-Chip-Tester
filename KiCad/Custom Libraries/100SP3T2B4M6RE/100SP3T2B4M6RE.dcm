@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 100SP3T2B4M6RE
+D TOGGLE, 0.4VA, 20VAC/VDC SPDT, On-Off-On Through Hole, Right Angle
+K
+F https://configured-product-images.s3.amazonaws.com/2D/specs/100SP3T2B4M6RE.pdf
+$ENDCMP
+#
+#End Doc Library
