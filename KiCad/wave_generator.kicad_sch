@@ -11769,28 +11769,28 @@
 			)
 		)
 		(pin "6"
-			(uuid "e1a86dc1-2947-47aa-a3af-15bf46c09a93")
+			(uuid "e1a86dc1-2947-47aa-a3af-15bf46c09a94")
 		)
 		(pin "8"
-			(uuid "3fae3349-ce2e-4361-80d1-e47e961e62d6")
+			(uuid "3fae3349-ce2e-4361-80d1-e47e961e62d7")
 		)
 		(pin "5"
-			(uuid "7c69cb7d-4125-46e4-9b24-2370751fe5d1")
+			(uuid "7c69cb7d-4125-46e4-9b24-2370751fe5d2")
 		)
 		(pin "4"
-			(uuid "a040e0b5-e84b-4146-b1e2-10142868d4c6")
+			(uuid "a040e0b5-e84b-4146-b1e2-10142868d4c7")
 		)
 		(pin "1"
-			(uuid "04f32ede-802c-4458-8585-7b4c3caeba5b")
+			(uuid "04f32ede-802c-4458-8585-7b4c3caeba5c")
 		)
 		(pin "7"
-			(uuid "b195a7db-1f90-4ea3-a428-a529c5cb2985")
+			(uuid "b195a7db-1f90-4ea3-a428-a529c5cb2986")
 		)
 		(pin "2"
-			(uuid "631f9665-b993-48bf-8019-a2321cfbeae2")
+			(uuid "631f9665-b993-48bf-8019-a2321cfbeae3")
 		)
 		(pin "3"
-			(uuid "4ca534bb-06e0-4546-80ad-87ec591e8f5a")
+			(uuid "4ca534bb-06e0-4546-80ad-87ec591e8f5b")
 		)
 		(instances
 			(project ""
@@ -11937,28 +11937,28 @@
 			)
 		)
 		(pin "6"
-			(uuid "e1a86dc1-2947-47aa-a3af-15bf46c09a93")
+			(uuid "e1a86dc1-2947-47aa-a3af-15bf46c09a95")
 		)
 		(pin "8"
-			(uuid "3fae3349-ce2e-4361-80d1-e47e961e62d6")
+			(uuid "3fae3349-ce2e-4361-80d1-e47e961e62d8")
 		)
 		(pin "5"
-			(uuid "7c69cb7d-4125-46e4-9b24-2370751fe5d1")
+			(uuid "7c69cb7d-4125-46e4-9b24-2370751fe5d3")
 		)
 		(pin "4"
-			(uuid "a040e0b5-e84b-4146-b1e2-10142868d4c6")
+			(uuid "a040e0b5-e84b-4146-b1e2-10142868d4c8")
 		)
 		(pin "1"
-			(uuid "04f32ede-802c-4458-8585-7b4c3caeba5b")
+			(uuid "04f32ede-802c-4458-8585-7b4c3caeba5d")
 		)
 		(pin "7"
-			(uuid "b195a7db-1f90-4ea3-a428-a529c5cb2985")
+			(uuid "b195a7db-1f90-4ea3-a428-a529c5cb2987")
 		)
 		(pin "2"
-			(uuid "631f9665-b993-48bf-8019-a2321cfbeae2")
+			(uuid "631f9665-b993-48bf-8019-a2321cfbeae4")
 		)
 		(pin "3"
-			(uuid "4ca534bb-06e0-4546-80ad-87ec591e8f5a")
+			(uuid "4ca534bb-06e0-4546-80ad-87ec591e8f5c")
 		)
 		(instances
 			(project ""
@@ -12197,7 +12197,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "910"
+		(property "Value" "10k"
 			(at 91.44 63.4999 0)
 			(effects
 				(font
@@ -12407,7 +12407,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "910"
+		(property "Value" "10k"
 			(at 62.23 40.6399 0)
 			(effects
 				(font
