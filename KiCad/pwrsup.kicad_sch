@@ -2029,8 +2029,8 @@
 				)
 			)
 		)
-		(property "Footprint" "100SP3T2B4M6RE"
-			(at 193.04 -61.9 0)
+		(property "Footprint" "100SP3T2B4M6RE:100SP3T2B4M6RE"
+			(at 105.41 -26.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
