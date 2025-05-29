@@ -1,6 +1,6 @@
 (fp_lib_table
   (version 7)
-  (lib (name "BH9VPC")(type "KiCad")(uri "${KIPRJMOD}/Custom Libraries/BH9VPC.pretty")(options "")(descr ""))
+  (lib (name "BH9VPC")(type "KiCad")(uri "${KIPRJMOD}/Custom Libraries/BH9VPC")(options "")(descr ""))
   (lib (name "100DP3T1B2M2QE")(type "KiCad")(uri "${KIPRJMOD}/Custom Libraries/100DP3T1B2M2QE.pretty")(options "")(descr "")(disabled))
   (lib (name "100DP1T2B4M6QE")(type "KiCad")(uri "${KIPRJMOD}/Custom Libraries/100DP1T2B4M6QE")(options "")(descr ""))
   (lib (name "7101MD9AQE")(type "KiCad")(uri "${KIPRJMOD}/Custom Libraries/7101MD9AQE/footprints.pretty")(options "")(descr ""))

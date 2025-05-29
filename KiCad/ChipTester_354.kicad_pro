@@ -625,6 +625,10 @@
     [
       "bb283dc1-1993-4617-8bcd-6a423451a748",
       "Wave Generator"
+    ],
+    [
+      "66abbfc5-c7ee-42ee-8f01-bf5211a4ea1c",
+      "MCP6002 and IF353"
     ]
   ],
   "text_variables": {}
