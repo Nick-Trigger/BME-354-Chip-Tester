@@ -864,7 +864,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_5W_P5.08mm_Vertical_KathodeUp"
 			(at 64.77 58.42 0)
 			(effects
 				(font
@@ -941,7 +941,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 58.42 62.23 0)
 			(effects
 				(font
@@ -1011,7 +1011,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_5W_P5.08mm_Vertical_AnodeUp"
 			(at 64.77 88.9 0)
 			(effects
 				(font
@@ -1090,7 +1090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_5W_P5.08mm_Vertical_KathodeUp"
 			(at 64.77 81.28 0)
 			(effects
 				(font
@@ -1169,7 +1169,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_5W_P5.08mm_Vertical_AnodeUp"
 			(at 64.77 66.04 0)
 			(effects
 				(font
@@ -1245,7 +1245,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 55.88 85.09 0)
 			(effects
 				(font

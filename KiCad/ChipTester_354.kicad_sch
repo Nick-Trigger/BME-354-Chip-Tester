@@ -2287,7 +2287,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_5W_P5.08mm_Vertical_AnodeUp"
 			(at 111.76 63.5 0)
 			(effects
 				(font
@@ -2700,7 +2700,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
 			(at 111.76 57.15 0)
 			(effects
 				(font
