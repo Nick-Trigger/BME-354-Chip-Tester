@@ -1839,6 +1839,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 74.93) (xy 184.15 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76fc878d-687b-4a36-9806-9e307e2f691f")
+	)
+	(wire
+		(pts
 			(xy 104.14 68.58) (xy 111.76 68.58)
 		)
 		(stroke
@@ -1859,13 +1869,13 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 80.01) (xy 184.15 80.01)
+			(xy 179.07 80.01) (xy 184.15 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e0624eb-997b-4abc-a9c3-ef5e6c6e691e")
+		(uuid "92d3d06c-e8c0-4e49-a76e-08ccd3d7adfe")
 	)
 	(wire
 		(pts
@@ -1886,6 +1896,16 @@
 			(type default)
 		)
 		(uuid "a95b6214-bfcd-42c0-9b6a-c0622444f316")
+	)
+	(wire
+		(pts
+			(xy 181.61 72.39) (xy 181.61 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4eb9fa6-656e-4a53-a946-ff6ea5a1874b")
 	)
 	(wire
 		(pts
@@ -1977,16 +1997,6 @@
 		)
 		(uuid "fc5e6fdb-a456-4907-ae1f-6be3a912a8f9")
 	)
-	(wire
-		(pts
-			(xy 173.99 74.93) (xy 184.15 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffefb0ab-bf5a-4d04-a184-74d4b2a58401")
-	)
 	(label "WAVE"
 		(at 173.99 86.36 0)
 		(effects
@@ -2006,16 +2016,6 @@
 			(justify left bottom)
 		)
 		(uuid "2ca1100b-687c-407b-9183-554305285d16")
-	)
-	(label "BATT-"
-		(at 173.99 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "40400fdd-c6a4-4f95-b466-63c4fea6073a")
 	)
 	(label "BATT-"
 		(at 78.74 71.12 0)
@@ -2136,16 +2136,6 @@
 			(justify left bottom)
 		)
 		(uuid "eff75b88-6fd8-4724-9b70-e1f6961863b4")
-	)
-	(label "BATT+"
-		(at 173.99 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f06de8e6-e4a9-4cc5-a186-4ed665b4f0a8")
 	)
 	(label "BATT+"
 		(at 43.18 53.34 90)
@@ -2399,6 +2389,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+9V")
+		(at 181.61 72.39 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30d042c2-fced-4efb-a1c8-d7d08eab80ee")
+		(property "Reference" "#PWR07"
+			(at 181.61 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+9V"
+			(at 181.61 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 181.61 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb3496ed-cba4-4c4e-a0a4-08b279fb557c")
+		)
+		(instances
+			(project "ChipTester_354"
+				(path "/57b9e980-cd8f-44e4-af61-2cbd5bb30325"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 195.58 34.29 0)
 		(unit 1)
@@ -2465,6 +2521,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 179.07 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48271d1b-67c6-4dad-ba35-153bce610c40")
+		(property "Reference" "#PWR08"
+			(at 172.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 80.0099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7dd4937-2c0b-4b57-a297-df719b32ae0b")
+		)
+		(instances
+			(project "ChipTester_354"
+				(path "/57b9e980-cd8f-44e4-af61-2cbd5bb30325"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 111.76 63.5 90)
 		(unit 1)
@@ -2492,7 +2614,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P5.08mm_Vertical_AnodeUp"
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 111.76 63.5 0)
 			(effects
 				(font
@@ -2670,6 +2792,70 @@
 			(project "ChipTester_354"
 				(path "/57b9e980-cd8f-44e4-af61-2cbd5bb30325"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 31.75 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99458ded-18d5-46f3-8f2d-2394c09b8760")
+		(property "Reference" "H2"
+			(at 34.29 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 34.29 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 31.75 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 31.75 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ChipTester_354"
+				(path "/57b9e980-cd8f-44e4-af61-2cbd5bb30325"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -2905,7 +3091,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 111.76 57.15 0)
 			(effects
 				(font
@@ -3069,6 +3255,134 @@
 			(project ""
 				(path "/57b9e980-cd8f-44e4-af61-2cbd5bb30325"
 					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 31.75 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e22c8524-8d5c-4bf4-90a7-2a3bd07e289c")
+		(property "Reference" "H3"
+			(at 34.29 125.7299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 34.29 128.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 31.75 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 31.75 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ChipTester_354"
+				(path "/57b9e980-cd8f-44e4-af61-2cbd5bb30325"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 31.75 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3a0ed42-c309-4c40-b6ea-16338a065390")
+		(property "Reference" "H4"
+			(at 34.29 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 34.29 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 31.75 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 31.75 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ChipTester_354"
+				(path "/57b9e980-cd8f-44e4-af61-2cbd5bb30325"
+					(reference "H4")
 					(unit 1)
 				)
 			)

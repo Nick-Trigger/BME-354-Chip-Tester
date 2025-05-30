@@ -1,0 +1,1 @@
+[('U2', 'C:\\Users\\nickt\\AppData\\Local\\Programs\\KiCad\\9.0\\share\\kicad\\3dmodels\\Package_TO_SOT_THT.3dshapes\\TO-218-3_Horizontal_TabDown.wrl'), ('S2', 'C:\\Users\\nickt\\source\\repos\\BME-354-Chip-Tester\\KiCad\\100SP3T2B4M6RE.stp')]

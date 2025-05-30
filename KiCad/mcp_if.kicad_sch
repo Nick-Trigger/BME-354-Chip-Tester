@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "ce92f710-2d0b-4cea-b766-5eb97223cee6")
+	(uuid "69caf41a-ecfe-418f-bf81-9372d18281d8")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Amplifier_Operational:MCP6002-xP"
@@ -1341,7 +1341,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P5.08mm_Vertical_AnodeUp"
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 48.26 62.23 0)
 			(effects
 				(font
@@ -1505,7 +1505,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 139.7 58.42 0)
 			(effects
 				(font
@@ -1575,7 +1575,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P5.08mm_Vertical_KathodeUp"
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 148.59 33.02 0)
 			(effects
 				(font
@@ -1680,28 +1680,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "38b3bc60-ba57-4dd0-85c7-2145f99f7b14")
+			(uuid "38b3bc60-ba57-4dd0-85c7-2145f99f7b15")
 		)
 		(pin "1"
-			(uuid "ee8b7af2-0893-4437-b0b1-7272d2c37525")
+			(uuid "ee8b7af2-0893-4437-b0b1-7272d2c37526")
 		)
 		(pin "6"
-			(uuid "8efb5cdb-ab5b-401b-a477-ef7c90547af5")
+			(uuid "8efb5cdb-ab5b-401b-a477-ef7c90547af6")
 		)
 		(pin "3"
-			(uuid "d4e647e2-0f06-4388-bede-81c11fec2f40")
+			(uuid "d4e647e2-0f06-4388-bede-81c11fec2f41")
 		)
 		(pin "2"
-			(uuid "370f591b-82cb-4ad5-aa1b-4b977382561c")
+			(uuid "370f591b-82cb-4ad5-aa1b-4b977382561d")
 		)
 		(pin "7"
-			(uuid "763e5e8c-d9f4-4c7d-814a-186a3aa48c84")
+			(uuid "763e5e8c-d9f4-4c7d-814a-186a3aa48c85")
 		)
 		(pin "4"
-			(uuid "d6f5dc21-b035-4876-8466-b979504b23d0")
+			(uuid "d6f5dc21-b035-4876-8466-b979504b23d1")
 		)
 		(pin "5"
-			(uuid "699c5b69-d83b-4f5b-b3ca-3841d035d316")
+			(uuid "699c5b69-d83b-4f5b-b3ca-3841d035d317")
 		)
 		(instances
 			(project ""
@@ -1740,7 +1740,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P5.08mm_Vertical_AnodeUp"
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 148.59 40.64 0)
 			(effects
 				(font
@@ -1819,7 +1819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P5.08mm_Vertical_KathodeUp"
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 148.59 54.61 0)
 			(effects
 				(font
@@ -1898,7 +1898,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P5.08mm_Vertical_AnodeUp"
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 148.59 62.23 0)
 			(effects
 				(font
@@ -2003,28 +2003,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "38b3bc60-ba57-4dd0-85c7-2145f99f7b14")
+			(uuid "38b3bc60-ba57-4dd0-85c7-2145f99f7b16")
 		)
 		(pin "1"
-			(uuid "ee8b7af2-0893-4437-b0b1-7272d2c37525")
+			(uuid "ee8b7af2-0893-4437-b0b1-7272d2c37527")
 		)
 		(pin "6"
-			(uuid "8efb5cdb-ab5b-401b-a477-ef7c90547af5")
+			(uuid "8efb5cdb-ab5b-401b-a477-ef7c90547af7")
 		)
 		(pin "3"
-			(uuid "d4e647e2-0f06-4388-bede-81c11fec2f40")
+			(uuid "d4e647e2-0f06-4388-bede-81c11fec2f42")
 		)
 		(pin "2"
-			(uuid "370f591b-82cb-4ad5-aa1b-4b977382561c")
+			(uuid "370f591b-82cb-4ad5-aa1b-4b977382561e")
 		)
 		(pin "7"
-			(uuid "763e5e8c-d9f4-4c7d-814a-186a3aa48c84")
+			(uuid "763e5e8c-d9f4-4c7d-814a-186a3aa48c86")
 		)
 		(pin "4"
-			(uuid "d6f5dc21-b035-4876-8466-b979504b23d0")
+			(uuid "d6f5dc21-b035-4876-8466-b979504b23d2")
 		)
 		(pin "5"
-			(uuid "699c5b69-d83b-4f5b-b3ca-3841d035d316")
+			(uuid "699c5b69-d83b-4f5b-b3ca-3841d035d318")
 		)
 		(instances
 			(project ""
@@ -2063,7 +2063,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_5W_P5.08mm_Vertical_KathodeUp"
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 48.26 54.61 0)
 			(effects
 				(font
@@ -2212,7 +2212,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 39.37 58.42 0)
 			(effects
 				(font
@@ -2279,7 +2279,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 139.7 36.83 0)
 			(effects
 				(font
