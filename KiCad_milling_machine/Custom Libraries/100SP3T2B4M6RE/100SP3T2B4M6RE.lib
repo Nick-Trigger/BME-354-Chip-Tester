@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 100SP3T2B4M6RE
+#/1232270/1682158/2.50/5/2/Switch
+DEF 100SP3T2B4M6RE S 0 30 Y Y 1 F N
+F0 "S" 850 300 50 H V L CNN
+F1 "100SP3T2B4M6RE" 850 200 50 H V L CNN
+F2 "100SP3T2B4M6RE" 850 100 50 H I L CNN
+F3 "https://configured-product-images.s3.amazonaws.com/2D/specs/100SP3T2B4M6RE.pdf" 850 0 50 H I L CNN
+F4 "TOGGLE, 0.4VA, 20VAC/VDC SPDT, On-Off-On Through Hole, Right Angle" 850 -100 50 H I L CNN "Description"
+F5 "6.86" 850 -200 50 H I L CNN "Height"
+F6 "E-Switch" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "100SP3T2B4M6RE" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "612-100-C2462" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/E-Switch/100SP3T2B4M6RE?qs=YXf4ACKMM4zivesIduNYcw%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X NC 1 1000 -200 200 L 50 50 0 0 N
+X COM 2 1000 -100 200 L 50 50 0 0 P
+X NO 3 1000 0 200 L 50 50 0 0 P
+X MH1 MH1 0 -100 200 R 50 50 0 0 P
+X MH2 MH2 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
