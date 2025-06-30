@@ -28,12 +28,23 @@ June 2nd-3rd 2025
 * Reannotated schematic and pcb.
 * Finished pcb layout.
 
-![Finished PCB 6/2/25](Documentation/pcb_6_22.jpeg)
+![Finished PCB schematic 6/2/25](Documentation/pcb_6_22.jpeg)
 
 June 4th 2025 
 
 * Duplicated board file to modify for milling machine specification.
 
+June 10th 2025 
+
+* Edited PCB schematic for remilling. Fixed clearance issues with tracks. 
+* Changed through-hole diameters to allow for rivets to be placed in difficult to solder locations (chip and pin sockets)
+
+June 25th 2025
+
+* Recieved milled board, tested board for issues before soldering. 
+* Soldered main components, need more blue and white LEDS
+
+![Incomplete PCB 6/2/25](Documentation/1st_stage_solder.jpeg)
 
 
 
