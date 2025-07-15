@@ -41,7 +41,7 @@ June 10th 2025
 
 June 25th 2025
 
-* Recieved milled board, tested board for issues before soldering. 
+* Received milled board, tested board for issues before soldering. 
 * Soldered main components, need more blue and white LEDS
 
 ![Incomplete PCB 6/2/25](Documentation/1st_stage_solder.jpeg)
