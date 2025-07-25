@@ -1316,15 +1316,15 @@
 	(symbol
 		(lib_id "Device:LED")
 		(at 48.26 62.23 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0e28eb5d-3361-4db9-bbaa-22bdc8053256")
 		(property "Reference" "D9"
-			(at 52.07 62.5474 90)
+			(at 52.07 61.9126 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1333,7 +1333,7 @@
 			)
 		)
 		(property "Value" "WHT"
-			(at 52.07 65.0874 90)
+			(at 52.07 59.3726 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1715,15 +1715,15 @@
 	(symbol
 		(lib_id "Device:LED")
 		(at 148.59 40.64 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5043a88f-6cdb-4576-a8cc-bc32aeb0d07f")
 		(property "Reference" "D11"
-			(at 152.4 40.9574 90)
+			(at 152.4 40.3226 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1732,7 +1732,7 @@
 			)
 		)
 		(property "Value" "WHT"
-			(at 152.4 43.4974 90)
+			(at 152.4 37.7826 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1873,15 +1873,15 @@
 	(symbol
 		(lib_id "Device:LED")
 		(at 148.59 62.23 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7b96d4e4-9c81-4272-83d5-406cec98707f")
 		(property "Reference" "D13"
-			(at 152.4 62.5474 90)
+			(at 152.4 61.9126 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1890,7 +1890,7 @@
 			)
 		)
 		(property "Value" "WHT"
-			(at 152.4 65.0874 90)
+			(at 152.4 59.3726 90)
 			(effects
 				(font
 					(size 1.27 1.27)

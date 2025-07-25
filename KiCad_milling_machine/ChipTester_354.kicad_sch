@@ -3534,16 +3534,6 @@
 				(justify right)
 			)
 		)
-		(pin "4.5V{slash}2.25V VGND" input
-			(at 144.78 40.64 180)
-			(uuid "35b51e59-55b1-4b3f-9a53-62b982e4b943")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "5V+ (2.5V+)" input
 			(at 189.23 38.1 0)
 			(uuid "699486c6-7de9-4ccd-adc1-20d0ae052028")
@@ -3564,9 +3554,9 @@
 				(justify left)
 			)
 		)
-		(pin "4.5V{slash}2.25V+" input
+		(pin "4.5V" input
 			(at 144.78 38.1 180)
-			(uuid "c5fc9e84-b2ac-44c5-b44a-6bb693b94c43")
+			(uuid "7ea0a350-a8ee-43a6-9f7c-f4ec91002759")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3574,9 +3564,19 @@
 				(justify left)
 			)
 		)
-		(pin "4.5V{slash}2.25V-" input
+		(pin "4.5V VGND" input
+			(at 144.78 40.64 180)
+			(uuid "31ec08a6-857c-4467-affe-b7f2c4f9c820")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "4.5V-" input
 			(at 144.78 43.18 180)
-			(uuid "f5f72284-e083-4fa1-bca8-3763b2a16279")
+			(uuid "24fea196-95af-45a6-a169-46f837e36814")
 			(effects
 				(font
 					(size 1.27 1.27)
