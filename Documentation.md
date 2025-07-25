@@ -46,5 +46,7 @@ June 25th 2025
 
 ![Incomplete PCB 6/2/25](Documentation/1st_stage_solder.jpeg)
 
+## PCB & Schematic Notes
+* (7/24/2025) The voltage provided by the battery has four different net class names (two before and two after the power switch). This is to distinguish between the nets so that KiCad does not draw a connection between these two signals, bridging across the switch -- making it useless.
 
 
