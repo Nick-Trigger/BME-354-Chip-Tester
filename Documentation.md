@@ -46,6 +46,16 @@ June 25th 2025
 
 ![Incomplete PCB 6/2/25](Documentation/1st_stage_solder.jpeg)
 
+
+July 29th 2025
+* Rebuilt circuit on breadboard to troubleshoot known issues identified on first milled PCB
+    * Issues included LED ground, necessary chip connections and switch issues. 
+    * Removed 2nd switch to simplify circuit logic. 
+
+August 4th 2025 
+
+* Updated schematic to ground LEDs to board GND to allow for simultaneous blinking. 
+
 ## PCB & Schematic Notes
 * (7/24/2025) The voltage provided by the battery has four different net class names (two before and two after the power switch). This is to distinguish between the nets so that KiCad does not draw a connection between these two signals, bridging across the switch -- making it useless.
 
